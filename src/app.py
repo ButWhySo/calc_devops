@@ -8,11 +8,13 @@ PAGE = """
 <title>DevOps Calculator</title>
 <h1>DevOps Calculator</h1>
 <form method="post">
+  <p>Hello!</p>
+  <br/>
   <input name="a" type="number" step="any" placeholder="a" required>
   <select name="op">
     <option value="add">+</option>
-    <option value="sub">−</option>
-    <option value="mul">×</option>
+    <option value="sub">-</option>
+    <option value="mul">x</option>
     <option value="div">÷</option>
     <option value="sqrt">√a</option>
     <option value="ln">ln a</option>

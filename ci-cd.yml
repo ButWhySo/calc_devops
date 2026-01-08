@@ -57,7 +57,7 @@ jobs:
           path: app.zip
 
   deploy_dev:
-    name: Deploy to Dev (calc-dev-web)
+    name: Deploy to Dev (Calculator-dev)
     needs: build_test
     runs-on: ubuntu-latest
     environment: dev-web
