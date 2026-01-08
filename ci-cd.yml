@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
       - name: Upgrade pip & install deps
         run: |
@@ -67,7 +67,7 @@ jobs:
         with:
           name: app-zip
           path: .
-
+ 
       - name: Azure WebApp Deploy (Dev)
         uses: azure/webapps-deploy@v3
         with:
